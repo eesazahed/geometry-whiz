@@ -1,0 +1,42 @@
+body{
+    font: 1rem Arial;
+}
+
+ul{
+    width: 50%;  
+    padding: 3%;
+    overflow-x: auto;
+}
+
+li{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.function{
+    color: #B7DA3F;
+    margin-right: -10px;
+}
+
+.parameter{
+    color: #EE983C;
+    font-style: italic;
+}
+
+@media(prefers-color-scheme: dark){
+    body{
+        background: #272722;
+        color: white;
+    }
+}
+@media(prefers-color-scheme: light){
+    body{
+        background: white;
+    }
+    ul{
+        background: #272722;
+        color: white;
+    }
+}
