@@ -27,7 +27,7 @@ let surfaceAreaOfCylinder = (radius, height) =>
 //cones
 let volumeOfCone = (radius, height) => (1 / 3) * pi * square(radius) * height;
 let surfaceAreaOfCone = (radius, slantHeight) =>
-  pi * radius * slantHeight + pi * square(radius);
+  pi * radius * (radius + Math.sqrt(square(slantHeight) + square(radius)));
 
 // length of line
 let lengthOfLine = (x1, x2, y1, y2) =>
