@@ -33,6 +33,6 @@ let surfaceAreaOfCone = (radius, slantHeight) =>
 let lengthOfLine = (x1, x2, y1, y2) =>
   Math.sqrt(square(x2 - x1) + square(y2 - y1));
 let midpoint = (x1, x2, y1, y2) => {
-  return (x1 + x2) / 2, (y1 + y2) / 2;
+  return [(x1 + x2) / 2, (y1 + y2) / 2];
 };
 let hypotenuse = (a, b) => Math.sqrt(square(a) + square(b));
