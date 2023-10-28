@@ -1,42 +1,37 @@
-body{
-    font: 1rem Arial;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  padding: none;
+  margin: none;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-ul{
-    width: 50%;  
-    padding: 3%;
-    overflow-x: auto;
+main {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  background-color: #fff;
+  text-align: center;
 }
 
-li{
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+button {
+  font-family: "Inter", sans-serif;
+  border-radius: 50px;
+  border-width: thin;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 0.5rem;
 }
 
-.function{
-    color: #B7DA3F;
-    margin-right: -10px;
+button {
+  cursor: pointer;
+  border: none;
+  background: #1e90ff;
+  color: white;
 }
 
-.parameter{
-    color: #EE983C;
-    font-style: italic;
-}
-
-@media(prefers-color-scheme: dark){
-    body{
-        background: #272722;
-        color: white;
-    }
-}
-@media(prefers-color-scheme: light){
-    body{
-        background: white;
-    }
-    ul{
-        background: #272722;
-        color: white;
-    }
+button:hover {
+  background: #0070f3;
 }
